@@ -1,0 +1,11 @@
+# Normalise line endings: source files are LF, Windows batch files are CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Generated launchers are binary.
+*.exe binary
+*.dll binary
+
+# Keep diffs meaningful for generated reports if anyone commits one.
+*.html linguist-detectable=false

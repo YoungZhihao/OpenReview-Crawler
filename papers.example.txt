@@ -1,0 +1,10 @@
+# 每行一条论文，支持：OpenReview 链接 / forum id / arXiv 号 / DOI / 论文标题
+# 以 # 开头的行为注释，空行会被忽略。用法：
+#   python crawl.py --input-file papers.example.txt
+#   python crawl.py --input-file papers.example.txt --venue ICLR -o ./results
+
+https://openreview.net/forum?id=c93SBwz1Ma
+Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+arXiv:2401.12345
+10.48550/arXiv.2201.11903
+BadChain: Backdoor Chain-of-Thought Prompting for Large Language Models
